@@ -1,7 +1,7 @@
 select
     order_id,
-    user_name as user_id_y,
-    order_status as order_status_y,
+    user_name as user_id,
+    order_status as order_status,
     DATETIME(order_date, "Europe/Paris") AS _xorder_created_at,
     DATETIME(order_approved_date, "Europe/Paris") AS _xorder_approved_at,
     DATETIME(pickup_date, "Europe/Paris") AS _xpicked_up_at,
