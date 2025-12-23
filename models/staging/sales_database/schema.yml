@@ -55,7 +55,7 @@ models:
         description: "Foreign key linking the order item to the corresponding order."
         tests:
           - relationships:
-              name: order_id_id_foreign_key_in_stg_sales_database__order_item
+              name: order_user
               arguments:
                 to: ref('stg_sales_database__order')
                 field: order_id
