@@ -38,7 +38,7 @@ models:
         description: "Foreign key linking the order to the user who placed it."
         tests:
           - relationships:
-              name: user_id_id_foreign_key_in_stg_sales_database__order
+              name: user_id
               arguments:
                 to: ref('stg_sales_database__user')
                 field: user_id
